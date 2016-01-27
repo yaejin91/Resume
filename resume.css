@@ -29,7 +29,6 @@
 
 .contact-info{
   padding-top: 1.5em;
-  /*padding-right: 1.5em;*/
   font-weight: bold;
   text-align: left;
 }
@@ -89,23 +88,12 @@
   padding-left: 1.9em;
 }
 
-.soft-skills{
-  text-align: left;
-  padding-top: 0.3em;
-  padding-left: 2.75em;
-}
-
 .period{
   font-style: italic;
 }
 
 .skills-container{
   padding-right: 1em;
-}
-
-.tech-skills{
-  margin: 0em;
-  /*width: 20%;*/
 }
 
 #background-exp{
@@ -143,4 +131,4 @@
   font-size: 28px;
   padding-top: 0.2em;
   padding-right: 3.6em;
-};
+}
