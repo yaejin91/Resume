@@ -2,7 +2,12 @@
 <html lang="en">
 
 <head>
-  <title> Yae Jin's Resume </title>
+  <title>Yae Jin's Resume</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="resume.css">
 </head>
 
@@ -10,34 +15,246 @@
   <section id="resume-top">
     <div class="container">
       <div id="red-box">
-        <h1 id="initials">YP</h1>
+        <h1 id="initials">Yae Jin</h1>
       </div>
     </div>
   </section>
   <section id="contact">
     <div class="container">
-      <div class="contact-info">
-        <h3 id="myname">yaejin<span class="red bold">park</span></h3>
-        <ul>
-          <p class="direct-contact" id="email">yaejin91@gmail.com</p>
-          <p class="direct-contact" id="number">(510) 457-1532</p>
-        </ul>
-        <ul>
-          <p class="address">2340 Powell Street #334</p>
-          <p class="address">Emeryville, CA 94608</p>
-        </ul>
-        <ul>
-          <p class="website">www.yaejin.com</p>
-          <p class="website">linkedin/yaejin91</p>
-        </ul>
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <h3 id="myname">yaejin<span class="red">park</span></h3>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="contact-info">
+            <div class="address">2340 Powell St. #334</div>
+            <div class="address">Emeryville, CA 94608</div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="contact-info">
+            <div class="website">www.yaejin.com</div>
+            <div class="website">linkedin/yaejin91</div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="contact-info">
+            <div class="direct-contact" id="email">yaejin91@gmail.com</div>
+            <div class="direct-contact" id="number">(510) 457-1532</div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <section id="experience">
     <div class="container">
-      <div class="exp">
-        <h2 id="background-exp">Background</h2>
+      <div class="row">
+        <h2 id="background-exp"><span class="glyphicon glyphicon-briefcase"></span><span class="red"> Employment</span></h2>
+        <div class="exp row">
+          <div class="col-md-3 text-center">
+            <div class="category-container">
+              <div class="exp-category name"><span class="bold-n-big">LearnTech Labs</span></div>
+              <div class="exp-category description">Sept. 2015 - Current</div>
+            </div>
+          </div>
+          <div class="col-md-9 text-center">
+            <div class="exp-description">
+              <div class="exp-description position"><span class="bold-n-big">Computer Science Teaching Assistant</span></div>
+              <div class="exp-description description">
+                One of the academic courses LearnTech Labs offers is a computer science course, in which students learn how to understand and create algorithms. I assist in teaching the mathematical portions in the course, which includes linear algebra and binary numbers. 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="exp row">
+          <div class="col-md-3 text-center">
+            <div class="category-container">
+              <div class="exp-category name"><span class="bold-n-big">TechLX</span></div>
+              <div class="exp-category description">June 2015 - July 2015</div>
+            </div>
+          </div>
+          <div class="col-md-9 text-center">
+            <div class="exp-description">
+              <div class="exp-description position"><span class="bold-n-big">Minecraft Modding Teaching Assistant</span></div>
+              <div class="exp-description description">
+                Minecraft is a sandbox game that allows users to build any object within the game. I taught the students how to create mock electric circuits with an object in the game called redstone. The circuits include a clock signal provider and switches.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="exp row">
+          <div class="col-md-3 text-center">
+            <div class="category-container">
+              <div class="exp-category name"><span class="bold-n-big">ReCarbon Inc.</span></div>
+              <div class="exp-category description">Jan. 2015 - June 2015</div>
+            </div>
+          </div>
+          <div class="col-md-9 text-center">
+            <div class="exp-description">
+              <div class="exp-description position"><span class="bold-n-big">Electrical Engineering Intern</span></div>
+              <div class="exp-description description">
+                ReCarbon's product destroys air pollutant particles with a large amount of electric power. I debugged and modified the company's custom software that runs the power source (MagDrive 1000) with C++. I also researched on the product's potential electrical components for the improvement of the product's efficiency and confirmed the order. 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="exp row">
+          <div class="col-md-3 text-center">
+            <div class="category-container">
+              <div class="exp-category name"><span class="bold-n-big">Mindful Talents</span></div>
+              <div class="exp-category description">June 2014 - Sept. 2014</div>
+            </div>
+          </div>
+          <div class="col-md-9 text-center">
+            <div class="exp-description">
+              <div class="exp-description position"><span class="bold-n-big">Engineering Intern</span></div>
+              <div class="exp-description description">
+                The goal of this internship was to create my own wearable device with Arduino and Bluetooth Low-Energy. I wired infrared sensors, an Arduino microcontroller and a Bluetooth Low-Energy for the prototype. The infrared sensors' purpose was to detect the user's blood circulation. Arduino software and Python were used for programming the Arduino microcontroller.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+  <section id="projects">
+    <div class="container">
+      <div class="row">
+        <h2 id="background-exp"><span class="glyphicon glyphicon-pushpin"></span><span class="red"> Projects</span></h2>
+        <div class="proj row">
+          <div class="col-md-3 text-center">
+            <div class="project-container">
+              <div class="proj-done name"><span class="bold-n-big">Eggercise</span></div>
+              <div class="proj-done date">Nov. 2015 - Current</div>
+            </div>
+          </div>
+          <div class="col-md-9 text-center">
+            <div class="exp-description">
+              <div class="proj-description position"><span class="bold-n-big">Full-Stack Web Developer</span></div>
+              <div class="proj-description description">
+                Eggercise is an exercise betting app. It allows users to create a group within the app, invite friends and bet who exercises the most throughout a certain period of time (determined by user). I created the spec template on the server side which was used by the whole team throughout completing the server side code. I also created services and controllers for betting and date calculations.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proj row">
+          <div class="col-md-3 text-center">
+            <div class="project-container">
+              <div class="proj-done name"><span class="bold-n-big">Trello-Clone</span></div>
+              <div class="proj-done date">Oct. 2015 - Nov. 2015</div>
+            </div>
+          </div>
+          <div class="col-md-9 text-center">
+            <div class="exp-description">
+              <div class="proj-description position"><span class="bold-n-big">Full-Stack Web Developer</span></div>
+              <div class="proj-description description">
+                Trello is a well-known team project organizer available online. After learning how to build code on MEAN (MongoDB, Express, Angular, Node) stack, I wanted to apply my knowledge and build my first MEAN app. I got inspired by Trello, and so created a Trello-Clone. Codes are tested with Jasmine.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="education">
+    <div class="container">
+      <div class="row">
+        <h2 id="education-header"><span class="glyphicon glyphicon-education"></span><span class="red"> Education</span></h2>
+        <div class="row edu">
+          <div class="col-md-3 text-center">
+            <div class="category-container">
+              <div class="school-attended name"><span class="bold-n-big">LearnTech Labs</span></div>
+              <div class="school-attended period">Sept. 2015 - Current</div>
+            </div>
+          </div>
+          <div class="col-md-9 text-center">
+            <div class="school-description">
+              <div class="school-description position"><span class="bold-n-big">Full-Stack Web Development Student</span></div>
+              <div class="school-description description">
+                LearnTech Labs teaches modern web and app development alongside computer science fundamentals. Students code over 1,500 hours during the program to gain their applied experience while working on projects provided by industry developers. By combining the applied coding skills and including the computer science fundamentals as the theoretical knowledge backing their coding work;  LTL Junior developers come out with a more rounded skill set that allows them to dive into industry work with class.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row edu">
+          <div class="col-md-3 text-center">
+            <div class="category-container">
+              <div class="school-attended name"><span class="bold-n-big">Rose-Hulman Inst. of Tech.</span></div>
+              <div class="school-attended period">Sept. 2010 - Nov. 2014</div>
+            </div>
+          </div>
+          <div class="col-md-9 text-center">
+            <div class="school-description">
+              <div class="school-description position"><span class="bold-n-big">Electrical Engineering, B.S.</span></div>
+              <div class="school-description description">
+                Rose-Hulman Institute of Technology (RHIT) is currently ranked as #1 engineering school in the nation for 17 years in a row. Students have a choice in choosing one or more of STEM majors to focus on. Laboratory works closely mirror field work, providing students a more realistic learning experience and preparation for post-school career.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+        <h2 id="skills-header"><span class="glyphicon glyphicon-wrench"></span><span class="red"> Skills</span></h2>
+        <div class="skills row">
+          <div class="col-md-15 col-sm-3 text-center">
+          <!-- <div class="col-md-3 text-center"> -->
+            <ul>
+              <div class="tech-skills">JavaScript</div>
+              <div class="tech-skills">Python</div>
+              <div class="tech-skills">C++</div>
+              <div class="tech-skills">Matlab</div>
+              <div class="tech-skills">C</div>
+            </ul>
+          </div>
+          <div class="col-md-15 col-sm-3 text-center">
+            <ul>
+              <div class="tech-skills">HTML</div>
+              <div class="tech-skills">CSS</div>
+              <div class="tech-skills">Git</div>
+              <div class="tech-skills">SASS</div>
+              <div class="tech-skills">LESS</div>
+            </ul>
+          </div>
+          <div class="col-md-15 col-sm-3 text-center">
+          <!-- <div class="col-md-3 text-center"> -->
+            <ul>
+              <div class="tech-skills">Node JS</div>
+              <div class="tech-skills">Angular JS</div>
+              <div class="tech-skills">Express JS</div>
+              <div class="tech-skills">jQuery</div>
+              <div class="tech-skills">Bootstrap</div>
+            </ul>
+          </div>
+          <div class="col-md-15 col-sm-3 text-center">
+          <!-- <div class="col-md-3 text-center"> -->
+            <ul>
+              <div class="tech-skills">SQL</div>
+              <div class="tech-skills">My SQL</div>
+              <div class="tech-skills">Postgress</div>
+              <div class="tech-skills">Mongo DB</div>
+            </ul>
+          </div>
+          <div class="col-md-15 col-sm-3 text-center">
+          <!-- <div class="col-md-3 text-center"> -->
+            <ul>
+              <div class="tech-skills">Agile Methodology</div>
+              <div class="tech-skills">Test Driven Development</div>
+              <div class="tech-skills">Object Oriented Programming</div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
