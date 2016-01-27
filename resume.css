@@ -17,6 +17,10 @@
   font-size: 23px;
 }
 
+#download-resume a:link{
+  color: #FFFFFF;
+}
+
 .red{
   color: #C20024;
   font-weight: bold;
@@ -121,6 +125,7 @@
 #initials{
   padding-top: 0.5em;
   padding-right: 0.5em;
+  font-family: 'Sarala', sans-serif;
   font-size: 70px;
   color: #FFFFFF;
   text-shadow: 4px 4px #000000;
